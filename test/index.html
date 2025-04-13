@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot (OpenRouter)</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; padding: 20px; background: #f9f9f9; }
+    #chatbox { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: scroll; background: #fff; }
+    #userInput { width: 80%; padding: 8px; }
+    #sendBtn { padding: 8px 16px; }
+  </style>
+</head>
+<body>
+
+  <h2>🤖 OpenRouter AI Chatbot</h2>
+  <div id="chatbox"></div>
+  <br>
+  <input type="text" id="userInput" placeholder="Type your message here" />
+  <button id="sendBtn" onclick="sendMessage()">Send</button>
+
+  <script>
+
+  async function sendMessage() {
+    const input = document.getElementById("userInput");
+    const message = input.value.trim();
+    if (!message) return;
+
+    const chatbox = document.getElementById("chatbox");
+    chatbox.innerHTML += `<b>You:</b> ${message}<br>`;
+    input.value = "";
+
+    try {
+      const response = await fetch("http://localhost:3000/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message })
+      });
+
+      const data = await response.json();
+      const reply = data?.reply || "⚠️ No response from AI.";
+      chatbox.innerHTML += `<b>AI:</b> ${reply}<br><br>`;
+      chatbox.scrollTop = chatbox.scrollHeight;
+
+    } catch (err) {
+      chatbox.innerHTML += `<b>AI:</b> Error: ${err.message}<br><br>`;
+    }
+  }
+
+
+  </script>
+
+</body>
+</html>

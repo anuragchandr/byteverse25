@@ -15,3 +15,7 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 }
+function redirectnav(){
+  location.href='./login/loginsin.html';
+  localStorage.clear();
+}

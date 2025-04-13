@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section and Add to Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="text" id="searchInput" placeholder="Search by name...">
+    <button onclick="searchItem()">Search</button>
+    <div id="sectionedResults"></div>
+    <button onclick="addToTable()">Add Selected Items to Table</button>
+
+    <table id="tableBody" border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Calories</th>
+                <th>Protein</th>
+                <th>Fat</th>
+                <th>Carbohydrates</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+
+    </table>
+    <button onclick="clearTable()">reset table</button>
+    <button onclick="calculate()">calculate</button>
+    <p id="resultProtein"> </p>
+    <p id="resultCalories"> </p>
+    <p id="resultFat"> </p>
+    <p id="resultCarbohydrates"> </p>
+    <p id="comment"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
