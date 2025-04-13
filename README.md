@@ -1,6 +1,6 @@
-# NutriLink — Nourishing Bharat, Intelligently
+# NutriSetu — Nourishing Bharat, Intelligently
 
-**NutriLink** is a digital initiative dedicated to redefining how India understands and adopts nutritional practices — by making them comprehensible, accessible, and actionable for every individual.
+**NutriSetu** is a digital initiative dedicated to redefining how India understands and adopts nutritional practices — by making them comprehensible, accessible, and actionable for every individual.
 
 ---
 
@@ -13,13 +13,13 @@ In the fast-paced rhythm of modern life, food is often consumed without a true u
 - Receive intelligent suggestions for balanced meal planning
 - Prepare or order optimized, health-conscious meals
 
-NutriLink is not just a nutrition calculator — it is a thoughtful step toward building a healthier, stronger, and more informed India.
+NutriSetu is not just a nutrition calculator — it is a thoughtful step toward building a healthier, stronger, and more informed India.
 
 ---
 
 ## Our Philosophy
 
-NutriLink is built on three fundamental principles:
+NutriSetu is built on three fundamental principles:
 
 - **Simplicity**  
   Nutritional data should be easy to understand, even for those without a scientific background.
@@ -44,13 +44,13 @@ NutriLink is built on three fundamental principles:
 
 ## Vision
 
-NutriLink envisions becoming India’s trusted digital companion in nutrition, contributing to public health outcomes, sustainable food habits, and a well-nourished future for all.
+NutriSetu envisions becoming India’s trusted digital companion in nutrition, contributing to public health outcomes, sustainable food habits, and a well-nourished future for all.
 
 ---
 
 ## Join the Movement
 
-NutriLink is not just a product — it is a collaborative mission. Together, we can enable every Indian to make informed, healthy, and sustainable food choices.
+NutriSetu is not just a product — it is a collaborative mission. Together, we can enable every Indian to make informed, healthy, and sustainable food choices.
 
 **Let’s build something impactful — for ourselves, and for Bharat.**  
-— *Team NutriLink*
+— *Team NutriSetu*
